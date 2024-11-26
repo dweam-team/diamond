@@ -7,9 +7,9 @@ from hydra.utils import instantiate
 from omegaconf import DictConfig, OmegaConf
 import torch
 
-from agent import Agent
-from envs import WorldModelEnv
-from game import Game, PlayEnv
+from .agent import Agent
+from .envs import WorldModelEnv
+from .game import Game, PlayEnv
 
 
 OmegaConf.register_new_resolver("eval", eval)
