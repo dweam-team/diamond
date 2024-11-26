@@ -64,11 +64,11 @@ evaluation:
   every: 10
 
 world_model_env:
-  _target_: envs.WorldModelEnvConfig
+  _target_: diamond_atari.envs.WorldModelEnvConfig
   horizon: 15
   num_batches_to_preload: 256
   diffusion_sampler:
-    _target_: models.diffusion.DiffusionSamplerConfig
+    _target_: diamond_atari.models.diffusion.DiffusionSamplerConfig
     num_steps_denoising: 3
     sigma_min: 2e-3
     sigma_max: 5.0
@@ -97,7 +97,7 @@ denoiser:
     eps: 1e-8
   
   sigma_distribution: # log normal distribution for sigma during training
-    _target_: models.diffusion.SigmaDistributionConfig
+    _target_: diamond_atari.models.diffusion.SigmaDistributionConfig
     loc: -0.4
     scale: 1.2
     sigma_min: 2e-3
@@ -132,7 +132,7 @@ actor_critic:
     max_grad_norm: 100.0
 
   actor_critic_loss:
-    _target_: models.actor_critic.ActorCriticLossConfig
+    _target_: diamond_atari.models.actor_critic.ActorCriticLossConfig
     backup_every: 15
     gamma: 0.985
     lambda_: 0.95
