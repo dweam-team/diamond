@@ -9,12 +9,12 @@ from omegaconf import DictConfig, OmegaConf
 import torch
 from torch.utils.data import DataLoader
 
-from agent import Agent
-from coroutines.collector import make_collector, NumToCollect
-from data import BatchSampler, collate_segments_to_batch, Dataset
-from envs import make_atari_env, WorldModelEnv
-from game import ActionNames, DatasetEnv, Game, get_keymap_and_action_names, Keymap, NamedEnv, PlayEnv
-from utils import get_path_agent_ckpt, prompt_atari_game
+from .agent import Agent
+from .coroutines.collector import make_collector, NumToCollect
+from .data import BatchSampler, collate_segments_to_batch, Dataset
+from .envs import make_atari_env, WorldModelEnv
+from .game import ActionNames, DatasetEnv, Game, get_keymap_and_action_names, Keymap, NamedEnv, PlayEnv
+from .utils import get_path_agent_ckpt, prompt_atari_game
 
 
 OmegaConf.register_new_resolver("eval", eval)

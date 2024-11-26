@@ -10,7 +10,7 @@ import torch
 from .episode import Episode
 from .segment import Segment, SegmentId
 from .utils import make_segment
-from utils import StateDictMixin
+from ..utils import StateDictMixin
 
 
 class Dataset(StateDictMixin, torch.utils.data.Dataset):

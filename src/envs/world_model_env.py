@@ -6,9 +6,9 @@ from torch import Tensor
 from torch.distributions.categorical import Categorical
 from torch.utils.data import DataLoader
 
-from coroutines import coroutine
-from models.diffusion import Denoiser, DiffusionSampler, DiffusionSamplerConfig
-from models.rew_end_model import RewEndModel
+from ..coroutines import coroutine
+from ..models.diffusion import Denoiser, DiffusionSampler, DiffusionSamplerConfig
+from ..models.rew_end_model import RewEndModel
 
 ResetOutput = Tuple[torch.FloatTensor, Dict[str, Any]]
 StepOutput = Tuple[Tensor, Tensor, Tensor, Tensor, Dict[str, Any]]

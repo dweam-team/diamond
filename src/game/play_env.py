@@ -7,10 +7,10 @@ import pygame
 import torch
 from torch import Tensor
 
-from agent import Agent
-from data import Dataset, Episode
-from game.keymap import ActionNames, Keymap
-from envs import WorldModelEnv
+from ..agent import Agent
+from ..data import Dataset, Episode
+from .keymap import ActionNames, Keymap
+from ..envs import WorldModelEnv
 
 
 NamedEnv = namedtuple("NamedEnv", "name env")
