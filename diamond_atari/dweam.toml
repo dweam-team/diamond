@@ -1,0 +1,377 @@
+type = "Diamond Atari"
+entrypoint = "diamond_atari.dweam_game:DiamondGame"
+repo_link = "https://github.com/eloialonso/diamond"
+thumbnail_dir = "thumbnails"
+
+[games.Alien]
+title = "Alien"
+description = "Maze-based game inspired by the film 'Alien'"
+tags = [
+    "atari",
+]
+
+[games.Alien.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"⬇️ Down" = "S"
+"➡️ Right" = "D"
+"🔥 Fire" = "Space"
+"🔄 Restart" = "Enter"
+
+[games.Amidar]
+title = "Amidar"
+description = "Maze-based arcade game"
+tags = [
+    "atari",
+]
+
+[games.Amidar.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"⬇️ Down" = "S"
+"➡️ Right" = "D"
+"🔥 Fire" = "Space"
+"🔄 Restart" = "Enter"
+
+[games.Assault]
+title = "Assault"
+description = "Tank combat game"
+tags = [
+    "atari",
+]
+
+[games.Assault.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"➡️ Right" = "D"
+"🔥 Fire" = "Space"
+"🔄 Restart" = "Enter"
+
+[games.Asterix]
+title = "Asterix"
+description = "Side-scrolling game based on the popular comic"
+tags = [
+    "atari",
+]
+
+[games.Asterix.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"⬇️ Down" = "S"
+"➡️ Right" = "D"
+"🔄 Restart" = "Enter"
+
+[games.BankHeist]
+title = "Bank Heist"
+description = "Players act as getaway drivers, robbing banks and avoiding police"
+tags = [
+    "atari",
+]
+
+[games.BankHeist.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"⬇️ Down" = "S"
+"➡️ Right" = "D"
+"🔥 Fire" = "Space"
+"🔄 Restart" = "Enter"
+
+[games.BattleZone]
+title = "Battle Zone"
+description = "Revolutionary first-person tank combat game"
+tags = [
+    "atari",
+]
+
+[games.BattleZone.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"⬇️ Down" = "S"
+"➡️ Right" = "D"
+"🔥 Fire" = "Space"
+"🔄 Restart" = "Enter"
+
+[games.Boxing]
+title = "Boxing"
+description = "Overhead boxing game"
+tags = [
+    "atari",
+]
+
+[games.Boxing.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"⬇️ Down" = "S"
+"➡️ Right" = "D"
+"🔥 Fire" = "Space"
+"🔄 Restart" = "Enter"
+
+[games.Breakout]
+title = "Breakout"
+description = "Iconic block-breaking game"
+tags = [
+    "atari",
+]
+
+[games.Breakout.buttons]
+"⬅️ Left" = "A"
+"➡️ Right" = "D"
+"🔥 Fire" = "Space"
+"🔄 Restart" = "Enter"
+
+[games.ChopperCommand]
+title = "Chopper Command"
+description = "Pilot a helicopter in a high-paced shooter game"
+tags = [
+    "atari",
+]
+
+[games.ChopperCommand.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"⬇️ Down" = "S"
+"➡️ Right" = "D"
+"🔥 Fire" = "Space"
+"🔄 Restart" = "Enter"
+
+[games.CrazyClimber]
+title = "Crazy Climber"
+description = "Vertical climbing game"
+tags = [
+    "atari",
+]
+
+[games.CrazyClimber.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"⬇️ Down" = "S"
+"➡️ Right" = "D"
+"🔄 Restart" = "Enter"
+
+[games.DemonAttack]
+title = "Demon Attack"
+description = "Shooter featuring waves of alien invaders"
+tags = [
+    "atari",
+]
+
+[games.DemonAttack.buttons]
+"⬅️ Left" = "A"
+"➡️ Right" = "D"
+"🔥 Fire" = "Space"
+"🔄 Restart" = "Enter"
+
+[games.Freeway]
+title = "Freeway"
+description = "Play a chicken trying to cross the road"
+tags = [
+    "atari",
+]
+
+[games.Freeway.buttons]
+"⬆️ Up" = "W"
+"⬇️ Down" = "S"
+"🔄 Restart" = "Enter"
+
+[games.Frostbite]
+title = "Frostbite"
+description = "Build igloos by jumping on floating ice blocks"
+tags = [
+    "atari",
+]
+
+[games.Frostbite.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"⬇️ Down" = "S"
+"➡️ Right" = "D"
+"🔥 Fire" = "Space"
+"🔄 Restart" = "Enter"
+
+[games.Gopher]
+title = "Gopher"
+description = "Protect crops from gophers by filling holes and knocking them back"
+tags = [
+    "atari",
+]
+
+[games.Gopher.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"➡️ Right" = "D"
+"🔥 Fire" = "Space"
+"🔄 Restart" = "Enter"
+
+[games.Hero]
+title = "Hero"
+description = "Action game where players rescue miners"
+tags = [
+    "atari",
+]
+
+[games.Hero.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"⬇️ Down" = "S"
+"➡️ Right" = "D"
+"🔥 Fire" = "Space"
+"🔄 Restart" = "Enter"
+
+[games.Jamesbond]
+title = "Jamesbond"
+description = "Play as James Bond in this action-adventure game"
+tags = [
+    "atari",
+]
+
+[games.Jamesbond.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"⬇️ Down" = "S"
+"➡️ Right" = "D"
+"🔥 Fire" = "Space"
+"🔄 Restart" = "Enter"
+
+[games.Kangaroo]
+title = "Kangaroo"
+description = "Platformer featuring a kangaroo that must rescue its baby while dodging monkeys and collecting fruit."
+tags = [
+    "atari",
+]
+
+[games.Kangaroo.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"⬇️ Down" = "S"
+"➡️ Right" = "D"
+"🔥 Fire" = "Space"
+"🔄 Restart" = "Enter"
+
+[games.Krull]
+title = "Krull"
+description = "Game based on the film 'Krull,' featuring a mix of combat, exploration, and puzzle-solving sequences."
+tags = [
+    "atari",
+]
+
+[games.Krull.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"⬇️ Down" = "S"
+"➡️ Right" = "D"
+"🔥 Fire" = "Space"
+"🔄 Restart" = "Enter"
+
+[games.KungFuMaster]
+title = "Kung Fu Master"
+description = "Players control a martial artist battling waves of enemies across multiple levels in this fast-paced beat-'em-up game."
+tags = [
+    "atari",
+]
+
+[games.KungFuMaster.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"⬇️ Down" = "S"
+"➡️ Right" = "D"
+"🔄 Restart" = "Enter"
+
+[games.MsPacman]
+title = "Ms Pacman"
+description = "Sequel to Pac-Man, featuring a new character, varied mazes, and improved gameplay elements as players evade ghosts and eat pellets."
+tags = [
+    "atari",
+]
+
+[games.MsPacman.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"⬇️ Down" = "S"
+"➡️ Right" = "D"
+"🔄 Restart" = "Enter"
+
+[games.Pong]
+title = "Pong"
+description = "Classic table tennis simulation game that laid the foundation for the video game industry, challenging players to outscore their opponent."
+tags = [
+    "atari",
+]
+
+[games.Pong.buttons]
+"⬅️ Left" = "A"
+"➡️ Right" = "D"
+"🔥 Fire" = "Space"
+"🔄 Restart" = "Enter"
+
+[games.PrivateEye]
+title = "Private Eye"
+description = "Detective adventure where players solve crimes and collect evidence while driving through city streets."
+tags = [
+    "atari",
+]
+
+[games.PrivateEye.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"⬇️ Down" = "S"
+"➡️ Right" = "D"
+"🔥 Fire" = "Space"
+"🔄 Restart" = "Enter"
+
+[games.Qbert]
+title = "Qbert"
+description = "Puzzle-platform game where players hop between cubes to change their colors, while avoiding enemies and traps in an isometric world."
+tags = [
+    "atari",
+]
+
+[games.Qbert.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"⬇️ Down" = "S"
+"➡️ Right" = "D"
+"🔥 Fire" = "Space"
+"🔄 Restart" = "Enter"
+
+[games.RoadRunner]
+title = "Road Runner"
+description = "Based on the cartoon, players control the Road Runner, collecting birdseed and evading Wile E. Coyote across various environments."
+tags = [
+    "atari",
+]
+
+[games.RoadRunner.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"⬇️ Down" = "S"
+"➡️ Right" = "D"
+"🔥 Fire" = "Space"
+"🔄 Restart" = "Enter"
+
+[games.Seaquest]
+title = "Seaquest"
+description = "Underwater-themed shooter where players control a submarine, rescuing divers and defeating enemy submarines and sharks."
+tags = [
+    "atari",
+]
+
+[games.Seaquest.buttons]
+"⬆️ Up" = "W"
+"⬅️ Left" = "A"
+"⬇️ Down" = "S"
+"➡️ Right" = "D"
+"🔥 Fire" = "Space"
+"🔄 Restart" = "Enter"
+
+[games.UpNDown]
+title = "Up N Down"
+description = "Unique racing and jumping game where players navigate a car along twisting tracks, collecting flags and avoiding collisions."
+tags = [
+    "atari",
+]
+
+[games.UpNDown.buttons]
+"⬆️ Up" = "W"
+"⬇️ Down" = "S"
+"🔥 Fire" = "Space"
+"🔄 Restart" = "Enter"
