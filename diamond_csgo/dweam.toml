@@ -1,0 +1,31 @@
+# Diamond Atari Games
+type = "Diamond"
+entrypoint = "diamond_csgo.dweam_game:CSGOGame"
+repo_link = "https://github.com/eloialonso/diamond"
+thumbnail_dir = "thumbnails"
+
+# Game-specific metadata
+[games.csgo]
+title = "Counter-Strike: Global Offensive"
+tags = ["First Person"]
+description = "Tactical FPS game"
+
+[games.csgo.buttons]
+"⬆️ Forward" = "W"
+"⬇️ Back" = "S"
+"⬅️ Left" = "A"
+"➡️ Right" = "D"
+"🆙 Jump" = "Space"
+"🦵 Crouch" = "Ctrl"
+"👟 Walk" = "Shift"
+"1️⃣ Weapon 1" = "1"
+"2️⃣ Weapon 2" = "2"
+"3️⃣ Weapon 3" = "3"
+"🔄 Reload" = "R"
+"🔫 Shoot" = "Mouse Left Click"
+"🔍 Aim" = "Mouse Right Click"
+"🖱️ Move Camera" = "Mouse Movement"
+"🔼 Camera Up" = "Arrow Up"
+"▶️ Camera Right" = "Arrow Right"
+"◀️ Camera Left" = "Arrow Left"
+"🔽 Camera Down" = "Arrow Down"
