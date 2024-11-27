@@ -1,0 +1,23 @@
+type = "Diamond"
+entrypoint = "diamond_csgo.dweam_game:CSGOGame"
+repo_link = "https://github.com/eloialonso/diamond"
+thumbnail_dir = "thumbnails"
+
+[games.csgo]
+title = "Counter-Strike: Global Offensive"
+tags = ["First Person"]
+description = "A model of Counter-Strike: Global Offensive, trained on the Dust 2 map."
+
+[games.csgo.buttons]
+"⬆️ Forward" = "W"
+"⬇️ Back" = "S"
+"⬅️ Left" = "A"
+"➡️ Right" = "D"
+"🆙 Jump" = "Space"
+"🦵 Crouch" = "Ctrl"
+"👟 Walk" = "Shift"
+"🔄 Reload" = "R"
+"🔫 Shoot" = "Mouse Left Click"
+"🔍 Aim" = "Mouse Right Click"
+"👀 Look Around" = "Mouse/Arrow Keys"
+"🔄 Reset" = "Enter"
